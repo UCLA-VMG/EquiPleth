@@ -1,7 +1,25 @@
-# Equitable Plethysmography
-Blending Camera and 77 GHz Radar Sensing for Equitable, Robust Plethysmography
+# Equitable Plethysmography Blending Camera and 77 GHz Radar Sensing for Equitable, Robust Plethysmography
 
-NOTE: We will update the README with the instructions for runnning all the scripts and steps to obatin the dataset.
+## Project Webpage
+
+[http://visual.ee.ucla.edu/equi_pleth_camera_rf.htm/](http://visual.ee.ucla.edu/equi_pleth_camera_rf.htm/)
+
+<hr />
+
+## Citation
+
+```
+@article{vilesov2022blending,
+  title={Blending camera and 77 GHz radar sensing for equitable, robust plethysmography},
+  author={Vilesov, Alexander and Chari, Pradyumna and Armouti, Adnan and Harish, Anirudh Bindiganavale and Kulkarni, Kimaya and Deoghare, Ananya and Jalilian, Laleh and Kadambi, Achuta},
+  journal={ACM Transactions on Graphics (TOG)},
+  volume={41},
+  number={4},
+  pages={1--14},
+  year={2022},
+  publisher={ACM New York, NY, USA}
+}
+```
 
 <hr /> 
 
@@ -58,7 +76,7 @@ In _sync\_sensors.py_ please edit the rf\_dump\_path in _cleanup\_rf_. This is t
 
 ## Dataset and Pre-prep
 
-The EquiPleth dataset can be downloaded by filling this [Google Form](https://github.com/UCLA-VMG/EquiPleth)\(Link will be updated soon\)
+The EquiPleth dataset can be downloaded by filling this [Google Form](https://forms.gle/sajK7a3mGGufKNUEA).
 
 If you choose to collect your own data, please adhere to the following pre-processing instructions to obtain a similar dataset to the EquiPleth dataset.
 
@@ -133,16 +151,6 @@ For more info about the command line arguments, please run the following:
 ```
 >> python {folder}/file.py --help
 ```
-
-<hr/>
-
-## Packages (To be reviewed)
-
-PyOpenGL_accelerate-3.1.5-cp36-cp36m-win_amd64.whl
-
-PyOpenGL-3.1.5-cp36-cp36m-win_amd64.whl
-
-pyzed-3.5-cp36-cp36m-win_amd64.whl
 
 <hr/>
 
