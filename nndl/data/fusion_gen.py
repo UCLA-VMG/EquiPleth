@@ -25,10 +25,10 @@ def parseArgs():
                         help="Directory to save the pickle file with the generated PPG waveforms.")
 
     parser.add_argument('--folds-path', type=str,
-                        default="./dataset/train_val_test_folds_ld_max.pkl",
+                        default="./dataset/demo_fold.pkl",
                         help='Pickle file containing the folds.')
                         
-    parser.add_argument('--fold', type=int, default=3,
+    parser.add_argument('--fold', type=int, default=0,
                         help='Fold Number')
 
     parser.add_argument('--device', type=str, default=None,
