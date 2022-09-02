@@ -4,23 +4,6 @@
 
 [http://visual.ee.ucla.edu/equi_pleth_camera_rf.htm/](http://visual.ee.ucla.edu/equi_pleth_camera_rf.htm/)
 
-<hr />
-
-## Citation
-
-```
-@article{vilesov2022blending,
-  title={Blending camera and 77 GHz radar sensing for equitable, robust plethysmography},
-  author={Vilesov, Alexander and Chari, Pradyumna and Armouti, Adnan and Harish, Anirudh Bindiganavale and Kulkarni, Kimaya and Deoghare, Ananya and Jalilian, Laleh and Kadambi, Achuta},
-  journal={ACM Transactions on Graphics (TOG)},
-  volume={41},
-  number={4},
-  pages={1--14},
-  year={2022},
-  publisher={ACM New York, NY, USA}
-}
-```
-
 <hr /> 
 
 ## Hardware Setup
@@ -84,27 +67,57 @@ If you choose to collect your own data, please adhere to the following pre-proce
 
 2) Use a face cropping software (MTCNN in our case) to crop the face and save each frame as an image within the trial/volunteer's folder.
 
-Hierarchy of the EquiPleth dataset
+Hierarchy of the EquiPleth dataset - RGB Files
 ```
 |
-|---- volunteer id 1
-|           |
-|           |-- frame 0
-|           |-- frame 1
-|           |
-|           |
-|           |-- last frame
+|--- rgb_files
+|        |
+|        |--- volunteer id 1 trial 1 (v_1_1)
+|        |         |
+|        |         |--- frame 0 (rgbd_rgb_0.png)
+|        |         |--- frame 1 (rgbd_rgb_0.png)
+|        |         |
+|        |         |
+|        |         |
+|        |         |--- last frame (rgbd_rgb_899.png)
+|        |         |--- ground truth PPG (rgbd_ppg.npy)
+|        | 
+|        | 
+|        |--- volunteer id 1 trial 2 (v_1_2)
+|        | 
+|        | 
+|        | 
+|        |--- volunteer id 2 trial 1 (v_2_1)
+|        |
+|        |
+|        |
 |
 |
-|---- volunteer id 2
 |
 |
+|--- rf files
+|        |
+|        |---- volunteer id 1 trial 1 (1_1)
+|        |           |
+|        |           |--- frame 0 (rf.pkl)
+|        |           |--- timestamps for the acquired chirps (rf.txt)
+|        |           |--- ground truth PPG (rgbd_pp.npy)
+|        |
+|        |
+|        |--- volunteer id 1 trial 2 (1_2)
+|        |
+|        |
+|        |
+|        |--- volunteer id 2 trial 1 (2_1)
+|        |
+|        |
+|        |
 |
-|--- fitzpatrick labels file
-|--- {folds pickle file}
-|--- {generated fusion data after rgb & rf training (more details in the section below)}
+|
+|--- fitzpatrick labels file (fitzpatrick_labels.pkl)
+|--- folds pickle file (demo_fold.pkl)
+|--- {user generated fusion data after rgb & rf training (more details in the section below)}
 ```
-
 
 Create a new folder (_dataset_ in our case) in _nndl_ and place the downloaded/processed dataset in the same.
 
@@ -159,3 +172,20 @@ For more info about the command line arguments, please run the following:
 1) Zheng, Tianyue, et al. "MoRe-Fi: Motion-robust and Fine-grained Respiration Monitoring via Deep-Learning UWB Radar." Proceedings of the 19th ACM Conference on Embedded Networked Sensor Systems. 2021.
 
 2) Yu, Zitong, Xiaobai Li, and Guoying Zhao. "Remote photoplethysmograph signal measurement from facial videos using spatio-temporal networks." arXiv preprint arXiv:1905.02419 (2019).
+
+<hr />
+
+## Citation
+
+```
+@article{vilesov2022blending,
+  title={Blending camera and 77 GHz radar sensing for equitable, robust plethysmography},
+  author={Vilesov, Alexander and Chari, Pradyumna and Armouti, Adnan and Harish, Anirudh Bindiganavale and Kulkarni, Kimaya and Deoghare, Ananya and Jalilian, Laleh and Kadambi, Achuta},
+  journal={ACM Transactions on Graphics (TOG)},
+  volume={41},
+  number={4},
+  pages={1--14},
+  year={2022},
+  publisher={ACM New York, NY, USA}
+}
+```
