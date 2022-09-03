@@ -75,7 +75,7 @@ Hierarchy of the EquiPleth dataset - RGB Files
 |        |--- volunteer id 1 trial 1 (v_1_1)
 |        |         |
 |        |         |--- frame 0 (rgbd_rgb_0.png)
-|        |         |--- frame 1 (rgbd_rgb_0.png)
+|        |         |--- frame 1 (rgbd_rgb_1.png)
 |        |         |
 |        |         |
 |        |         |
@@ -99,9 +99,8 @@ Hierarchy of the EquiPleth dataset - RGB Files
 |        |
 |        |---- volunteer id 1 trial 1 (1_1)
 |        |           |
-|        |           |--- frame 0 (rf.pkl)
-|        |           |--- timestamps for the acquired chirps (rf.txt)
-|        |           |--- ground truth PPG (rgbd_pp.npy)
+|        |           |--- Radar data (rf.pkl)
+|        |           |--- ground truth PPG (vital_dict.npy)
 |        |
 |        |
 |        |--- volunteer id 1 trial 2 (1_2)
