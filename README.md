@@ -1,5 +1,7 @@
 # Equitable Plethysmography Blending Camera and 77 GHz Radar Sensing for Equitable, Robust Plethysmography
 
+**Contributing Authors**: [Adnan Armouti](https://github.com/adnan-armouti), [Anirudh Bindiganavale Harish](https://github.com/Anirudh0707), [Alexander (Sasha) Vilesov](https://github.com/asvilesov/), [Pradyumna Chari](https://github.com/pradyumnachari/).
+
 ## Project Webpage
 
 [http://visual.ee.ucla.edu/equi_pleth_camera_rf.htm/](http://visual.ee.ucla.edu/equi_pleth_camera_rf.htm/)
