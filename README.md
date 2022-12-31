@@ -168,7 +168,7 @@ For more info about the command line arguments, please run the following:
 
 <hr/>
 
-## Citations
+## References
 
 1) Zheng, Tianyue, et al. "MoRe-Fi: Motion-robust and Fine-grained Respiration Monitoring via Deep-Learning UWB Radar." Proceedings of the 19th ACM Conference on Embedded Networked Sensor Systems. 2021.
 
