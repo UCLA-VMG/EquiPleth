@@ -2,9 +2,12 @@
 
 **Contributing Authors**: [Adnan Armouti](https://github.com/adnan-armouti), [Anirudh Bindiganavale Harish](https://github.com/Anirudh0707), [Alexander (Sasha) Vilesov](https://github.com/asvilesov/), [Pradyumna Chari](https://github.com/pradyumnachari/).
 
-## Project Webpage
+## Project Details
 
-[http://visual.ee.ucla.edu/equi_pleth_camera_rf.htm/](http://visual.ee.ucla.edu/equi_pleth_camera_rf.htm/)
+> __Blending Camera and 77 GHz Radar Sensing for Equitable, Robust Plethysmography__  
+> [Alexander Vilesov](https://asvilesov.github.io/), [Pradyumna Chari](https://pradyumnachari.github.io/), [Adnan Armouti](https://adnan-armouti.github.io/), [Anirudh Bindiganavale Harish](https://anirudh0707.github.io/), [Kimaya Kulkarni](https://kimayak.github.io/), [Ananya Deoghare](https://www.linkedin.com/in/ananya-deepak-deoghare-b60435106/), [Laleh Jalilian](https://www.linkedin.com/in/laleh-jalilian-md-162754115/), [Achuta Kadambi](https://www.ee.ucla.edu/achuta-kadambi/)<br/>
+> _ACM Transactions on Graphics (__SIGGRAPH__), July 2022_  
+> __[Project page](https://visual.ee.ucla.edu/equi_pleth_camera_rf.htm/)&nbsp;/ [Paper](https://dl.acm.org/doi/10.1145/3528223.3530161)&nbsp;/ [Dataset Request Form](https://docs.google.com/forms/d/e/1FAIpQLSfFqFXyp4-xH2NSx7Hk33FxSUb-MdwmwVCH3C_kUeQshJzn7Q/viewform)&nbsp;/ [Presentation](https://docs.google.com/presentation/d/1arSZlesm3VgBBglVNgi2xmAntTNgeLUfbt1LALtjDXw/edit#slide=id.g1428981a6f5_4_80)&nbsp;/ [Los-Res Paper](https://drive.google.com/file/d/1TSQpXoqkLtEgA3K1bSsQedVTjyQb65sa/view?usp=sharing)__
 
 <hr /> 
 
